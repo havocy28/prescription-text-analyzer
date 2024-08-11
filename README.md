@@ -1,3 +1,5 @@
+# README
+
 ## Introduction
 
 This repository contains a Python script designed to analyze veterinary prescriptions and calculate important dosing information using the OpenAI API (GPT-3.5-turbo or GPT-4-turbo model). The script reads input data from text files, interacts with the OpenAI API to analyze the data, and outputs the results to an Excel file.
@@ -95,10 +97,10 @@ This repository contains a Python script designed to analyze veterinary prescrip
    You can run the script by simply executing:
 
    ```bash
-   python script_name.py
+   python run_prompts.py
    ```
 
-   Make sure to replace `script_name.py` with the actual name of the script file. The output will be an Excel file containing the calculated dosing information, saved to the path specified in the script.
+   The output will be an Excel file containing the calculated dosing information, saved to the path specified in the script.
 
 3. **Example Input and Output**
 
@@ -108,6 +110,18 @@ This repository contains a Python script designed to analyze veterinary prescrip
 
    - **Output File**:
      - `dose_predictions.xlsx` will be created with structured dosing information.
+
+## Testing Your OpenAI Setup
+
+Before running the main script, you can test whether your OpenAI configuration is set up correctly using the `openai_check.py` script. This script will attempt to make a simple request to the OpenAI API and confirm if the environment variables are correctly configured.
+
+To run the test:
+
+```bash
+python openai_check.py
+```
+
+If everything is set up correctly, you should see a confirmation message along with a response from OpenAI.
 
 ## Customization
 
