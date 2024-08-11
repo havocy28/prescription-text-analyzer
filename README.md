@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 
 This repository contains a Python script designed to analyze veterinary prescriptions and calculate important dosing information using the OpenAI API (GPT-3.5-turbo or GPT-4-turbo model). The script reads input data from text files, interacts with the OpenAI API to analyze the data, and outputs the results to an Excel file.
